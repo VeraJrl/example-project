@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 console.log("Kajtazi");
 const _ = require('lodash');
-
+console.log("Lorik")
 app.get('/', (req, res) => {
 //   const arrayRange = _.range(1, 5);
 //   res.send(`my Array: ${arrayRange}`);
